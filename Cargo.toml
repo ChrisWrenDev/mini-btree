@@ -1,0 +1,15 @@
+[workspace]
+members = ["book", "code", "xtask"]
+resolver = "2"
+
+[workspace.package]
+versions = "0.0.0"
+edition = "2025"
+homepage = "https://github.com/ChrisWrenDev/mini-btree"
+keywords = ["btree", "storage", "database", "tutorial", "course"]
+license = "MIT"
+repository = "https://github.com/ChrisWrenDev/mini-btree"
+
+[workspace.dependencies]
+anyhow = "1"
+bytes = "1"
