@@ -1,0 +1,12 @@
+[package]
+name = "mini-btree"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+keywords.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[dependencies]
+thiserror = "2.0.12"
